@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    .text-navbar{
+        display: none;
+    }
+    #nav-bar a:link, a:visited{
+        padding: 10px;
+        margin-right: 1rem;
+        padding-bottom: 30px;
+    }
+    #nav-bar{
+        margin-top: 1rem;
+    }
+    #personal-info{
+        font-size: 16px;
+        padding-right: 40px;
+    }
+    #target{
+        font-size: 16px;
+    }
+
+    .cer-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-title{
+        font-size: 14px;
+    }
+    .project-boder{
+        font-size: 14px;
+        padding: 10px 4px !important;
+    }
+
+    .project-boder span{
+        margin-right: 5px !important;
+    }
+    td{
+        font-size: 12px;
+    }
+    tr td:first-child{
+        width: 30%;
+    }
+    
+    .project-border > div:nth-child(2) {
+        display: block;
+    }
+}

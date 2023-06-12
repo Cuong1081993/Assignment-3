@@ -1,0 +1,38 @@
+@media(max-width: 767px){
+    .text-navbar{
+        display: none;
+    }
+    #nav-bar{
+        height: auto;
+        display: block;
+    }
+    #nav-bar a:link, a:visited{
+        display: block;
+        padding: 10px;
+        border-left: none;
+        text-align: left;
+    }
+    #personal-info{
+        padding-right: 25px;
+    }
+
+    .cer-content-2{
+        border-left: 0;
+        border-top: 1px solid #d6c08d;
+    }
+    
+    .project-border {
+        display: block;
+    }
+    
+    .project-border > div:nth-child(2) {
+        display: block;
+    }
+    .project-border div {
+        margin-bottom: 10px;
+    }
+
+    #footer a:link{
+        margin-right: 10px;
+    }
+}
